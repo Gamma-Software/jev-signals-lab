@@ -1,0 +1,24 @@
+{
+  "name": "typesafe-ai-tests",
+  "version": "1.0.0",
+  "description": "A Jev-based, paper-only trading signal POC.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0",
+    "chess.js": "^1.4.0",
+    "dotenv": "^18.0.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
